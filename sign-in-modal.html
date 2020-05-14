@@ -17,13 +17,12 @@
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
 	
     <!-- GOOGLE WEB FONT -->
-   	<link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" as="fetch" crossorigin="anonymous">
     <script>
     !function(e,n,t){"use strict";var o="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap",r="__3perf_googleFonts_c2536";function c(e){(n.head||n.body).appendChild(e)}function a(){var e=n.createElement("link");e.href=o,e.rel="stylesheet",c(e)}function f(e){if(!n.getElementById(r)){var t=n.createElement("style");t.id=r,c(t)}n.getElementById(r).innerHTML=e}e.FontFace&&e.FontFace.prototype.hasOwnProperty("display")?(t[r]&&f(t[r]),fetch(o).then(function(e){return e.text()}).then(function(e){return e.replace(/@font-face {/g,"@font-face{font-display:swap;")}).then(function(e){return t[r]=e}).then(f).catch(a)):a()}(window,document,localStorage);
     </script>
-
 
     <!-- BASE CSS -->
     <link href="css/bootstrap.custom.min.css" rel="stylesheet">
@@ -274,27 +273,7 @@
 								<a href="#0" class="wishlist"><span>Wishlist</span></a>
 							</li>
 							<li>
-								<div class="dropdown dropdown-access">
-									<a href="account.html" class="access_link"><span>Account</span></a>
-									<div class="dropdown-menu">
-										<a href="account.html" class="btn_1">Sign In or Sign Up</a>
-										<ul>
-											<li>
-												<a href="track-order.html"><i class="ti-truck"></i>Track your Order</a>
-											</li>
-											<li>
-												<a href="account.html"><i class="ti-package"></i>My Orders</a>
-											</li>
-											<li>
-												<a href="account.html"><i class="ti-user"></i>My Profile</a>
-											</li>
-											<li>
-												<a href="help.html"><i class="ti-help-alt"></i>Help and Faq</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<!-- /dropdown-access-->
+								<a href="#sign-in-dialog" id="sign-in" class="access_link"><span>Account</span></a>
 							</li>
 							<li>
 								<a href="javascript:void(0);" class="btn_search_mob"><span>Search</span></a>
@@ -430,7 +409,7 @@
 							<span class="ribbon off">-30%</span>
 							<a href="product-detail-1.html">
 								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/1.jpg" alt="">
-								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/1_b.jpg" alt="">
+								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/2.jpg" alt="">
 							</a>
 							<div data-countdown="2020/03/15" class="countdown"></div>
 						</figure>
@@ -457,7 +436,6 @@
 						<figure>
 							<a href="product-detail-1.html">
 								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/2.jpg" alt="">
-								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/2_b.jpg" alt="">
 							</a>
 							<div data-countdown="2020/03/15" class="countdown"></div>
 						</figure>
@@ -484,7 +462,6 @@
 						<figure>
 							<a href="product-detail-1.html">
 								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/3.jpg" alt="">
-								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/3_b.jpg" alt="">
 							</a>
 							<div data-countdown="2020/03/15" class="countdown"></div>
 						</figure>
@@ -511,7 +488,6 @@
 						<figure>
 							<a href="product-detail-1.html">
 								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/4.jpg" alt="">
-								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/4_b.jpg" alt="">
 							</a>
 						</figure>
 						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
@@ -536,7 +512,6 @@
 						<figure>
 							<a href="product-detail-1.html">
 								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/5.jpg" alt="">
-								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/5_b.jpg" alt="">
 							</a>
 						</figure>
 						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
@@ -561,7 +536,6 @@
 						<figure>
 							<a href="product-detail-1.html">
 								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/6.jpg" alt="">
-								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/6_b.jpg" alt="">
 							</a>
 						</figure>
 						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
@@ -586,7 +560,6 @@
 						<figure>
 							<a href="product-detail-1.html">
 								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/7.jpg" alt="">
-								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/7_b.jpg" alt="">
 							</a>
 						</figure>
 						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
@@ -611,7 +584,6 @@
 						<figure>
 							<a href="product-detail-1.html">
 								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/8.jpg" alt="">
-								<img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/8_b.jpg" alt="">
 							</a>
 						</figure>
 						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
@@ -818,7 +790,7 @@
 
 		<div class="container margin_60_35">
 			<div class="main_title">
-				<h2>Latest News</h2>
+				<h2>Latest news</h2>
 				<span>Blog</span>
 				<p>Cum doctus civibus efficiantur in imperdiet deterruisset</p>
 			</div>
@@ -991,13 +963,61 @@
 	<!-- page -->
 	
 	<div id="toTop"></div><!-- Back to top button -->
+
+	<!-- Sign In Modal -->
+	<div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
+		<div class="modal_header">
+			<h3>Sign In</h3>
+		</div>
+		<form>
+			<div class="sign-in-wrapper">
+				<a href="#0" class="social_bt facebook">Login with Facebook</a>
+				<a href="#0" class="social_bt google">Login with Google</a>
+				<div class="divider"><span>Or</span></div>
+				<div class="form-group">
+					<label>Email</label>
+					<input type="email" class="form-control" name="email" id="email">
+					<i class="ti-email"></i>
+				</div>
+				<div class="form-group">
+					<label>Password</label>
+					<input type="password" class="form-control" name="password" id="password" value="">
+					<i class="ti-lock"></i>
+				</div>
+				<div class="clearfix add_bottom_15">
+					<div class="checkboxes float-left">
+						<label class="container_check">Remember me
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+					</div>
+					<div class="float-right mt-1"><a id="forgot" href="javascript:void(0);">Forgot Password?</a></div>
+				</div>
+				<div class="text-center">
+					<input type="submit" value="Log In" class="btn_1 full-width">
+					Don’t have an account? <a href="account.html">Sign up</a>
+				</div>
+				<div id="forgot_pw">
+					<div class="form-group">
+						<label>Please confirm login email below</label>
+						<input type="email" class="form-control" name="email_forgot" id="email_forgot">
+						<i class="ti-email"></i>
+					</div>
+					<p>You will receive an email containing a link allowing you to reset your password to a new preferred one.</p>
+					<div class="text-center"><input type="submit" value="Reset Password" class="btn_1"></div>
+				</div>
+			</div>
+		</form>
+		<!--form -->
+	</div>
+	<!-- /Sign In Modal -->
 	
 	<!-- COMMON SCRIPTS -->
     <script src="js/common_scripts.min.js"></script>
     <script src="js/main.js"></script>
 	
 	<!-- SPECIFIC SCRIPTS -->
-	<script src="js/carousel-home.min.js"></script>
+	<script src="js/carousel-home.js"></script>
 
 </body>
 </html>
